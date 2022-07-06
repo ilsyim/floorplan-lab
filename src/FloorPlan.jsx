@@ -6,13 +6,14 @@ import Bath from "./Bath";
 function FloorPlan() {
   return (
     <>
-      <h1>This is a floorplan.</h1>
-      <Kitchen />
+      <Bedroom bedNum={'Guest'}/>
+      <Bath size={'Full'}/>
       <LivingRoom/>
-      <Bedroom bedNum={1}/>
-      <Bedroom bedNum={2}/>
       <Bedroom bedNum={3}/>
+      <Kitchen />
+      <Bedroom bedNum={2}/>
       <Bath size={'Half'}/>
+      <Bedroom bedNum={1}/>
       <Bath size={'Full'}/>
     </>
   )
