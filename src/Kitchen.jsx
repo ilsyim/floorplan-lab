@@ -1,9 +1,15 @@
+import Oven from "./Oven"
+import Sink from "./Sink"
+
 
 function Kitchen(props) {
   return (
     <>
-      <h2>Kitchen</h2>
-      {props}
+      <div>
+        <h2>Kitchen</h2>
+        <Oven />
+        <Sink />
+      </div>
     </>
   )
 }
